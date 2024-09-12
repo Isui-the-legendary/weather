@@ -12,7 +12,7 @@ export const handleWeatherByGeolocation = () => {
         const crd = pos.coords;
 
         const response = await fetch(
-            `https://api.geoapify.com/v1/geocode/reverse?lat=${crd.latitude}&lon=${crd.longitude}&lang=ru&apiKey=4ada1ed8a6694bbb816a6614162f9cb0`
+            `https://api.geoapify.com/v1/geocode/reverse?lat=${crd.latitude}&lon=${crd.longitude}&lang=ru&apiKey=57e32fe4f45341f5a027f2e05986f7c3`
         )
 
         const result = await response.json();
